@@ -41,6 +41,7 @@ while True:
         break
 
     if escolha_usuario == 1:
+        print('\nVocê acessou o menu: 1 - Problemas Elétricos\n')
         while True:
             print('Qual seria o problema?  ')
             print('1 - Bateria')
@@ -51,7 +52,7 @@ while True:
             if escolha_eletrico == '4':
                 break
             elif escolha_eletrico in ['1', '2', '3']:
-               escolha_eletrico2 = input(('Seu veículo possui carga? [S/N] '))
+               escolha_eletrico2 = input(('Seu veículo possui carga? [Digite S/N] '))
                if escolha_eletrico2 == 'S':
                    carga_eletrico = float(input('Qual seria o peso aproximadamente?  (Digite com pontos, por exemplo: 23.5)\n'))
                print('Informações recebidas!')
@@ -60,6 +61,7 @@ while True:
                 print('Informações recebidas')
                 exit();
     if escolha_usuario == 2:
+        print('\nVocê acessou o menu 2: - Problemas Mecânicos ou com cargas\n')
         while True:
             print('Qual seria o problema?  ')
             print('1 - Motor')
@@ -72,7 +74,7 @@ while True:
             if escolha_mecanico == '6':
                 break
             elif escolha_mecanico in ['1', '2', '3', '4']:
-                escolha_mecanico2 = input('Seu veículo possui carga? [S/N] ')
+                escolha_mecanico2 = input('Seu veículo possui carga? [Digite S/N] ')
                 if escolha_mecanico2 == 'S':
                     carga_mecanico = float(input('Qual seria o peso aproximadamente?  (Digite com pontos, por exemplo: 23.5)\n'))
                 print('Informações recebidas!')
@@ -81,6 +83,7 @@ while True:
                 print('Informações recebidas')
                 exit();
     if escolha_usuario == 3:
+        print('\nVocê acessou o menu: 3 - Problemas com Combustível ou Pneu\n')
         while True:
             print('Qual seria o problema?  ')
             print('1 - Falta de Combustível')
@@ -91,7 +94,7 @@ while True:
             if escolha_comb == '4':
                 break
             elif escolha_comb in ['1', '2', '3']:
-                escolha_comb2 = input('Seu veículo possui carga? [S/N] ')
+                escolha_comb2 = input('Seu veículo possui carga? [Digite S/N] ')
                 if escolha_comb2 == 'S':
                     carga_comb = float(input('Qual seria o peso aproximadamente?  (Digite com pontos, por exemplo: 23.5)\n'))
                 print('Informações recebidas!')
@@ -100,6 +103,7 @@ while True:
                 print('Informações recebidas!')
                 exit();
     if escolha_usuario == 4:
+        print('\nVocê acessou o menu: 4 - Acidentes\n')
         while True:
             print('Qual seria o problema? ')
             print('1 - Capotamento')
@@ -110,7 +114,7 @@ while True:
             if escolha_acidente == '4':
                 break
             elif escolha_acidente in ['1', '2', '3']:
-                escolha_acidente2 = input('Seu veículo possui carga? [S/N] ')
+                escolha_acidente2 = input('Seu veículo possui carga? [Digite S/N] ')
                 if escolha_acidente2 == 'S':
                     carga_acidente = float(input('Qual seria o peso aproximadamente?  (Digite com pontos, por exemplo: 25.3)\n'))
                 print('Informações recebidas!')
@@ -118,6 +122,4 @@ while True:
             elif escolha_acidente2 == 'N':
                 print('Informações recebidas!')
                 exit();
-
-
 
